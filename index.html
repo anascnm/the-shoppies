@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopify</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link href="./css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  </head>
+  <body>
+    <main>
+      <div class="header-img">
+        <h1 id="header">
+         <br/> <br/> <br/>
+         <span style="background-color:#000000">THE SHOPPIES</span> <br/>
+        <span style="background-color:#000000">Movie awards for entrepreneurs</span> 
+        </h1> <!--this is "The shoppies"-->
+      </div>
+  </main>
+  <br/>
+    <section id="global"> <!--this is the background container-->
+      <section id="searchDiv"> <!--this is the search card-->
+        <div id="searchBoxGroup">
+          <h4 id="movieTitle">Movie title</h4>
+          <label for="searchbox"></label>
+          <input type="text" id="searchbox" aria-describedby="searchbox" placeholder="Search Here">
+        </div>
+      </section> <!--search card end-->
+      <section class="row"> <!--this is the result list + nominations container-->
+        <div id="root" class="column"> <!--result list card-->
+          <h3 id="results">Results for</h3>
+          <div class="divider"></div>
+          <!--JAVASCRIPT INSERT-->
+        </div>
+        <div id="clone" class="column"> <!--nominations card-->
+          <h3>Nominations</h3>
+          <h5 id="count"></h5>
+          <div class="divider"></div>
+          <div id="emptyNoti">
+            <img class="icon" src="/assets/images/iconInfo.png ">
+            <p class="notiText">Nominate movies from search results</p>
+            <img class="dismiss" src="./assets/images/dismiss.png">
+          </div>
+          <div id="successNoti">
+            <img class="icon" src="./assets/images/iconSuccess.png">
+            <p class="notiText">You have nominated 5 movies!</p>
+            <img class="dismiss" src="./assets/images/dismiss.png">
+          </div>
+          <div id="nominations" class="container">
+          </div>
+        </div>
+      </section> <!--result list + nominations container end-->
+    </section>
+  <script src="./script/script.js"></script>
+ 
+  <!--Footer-->
+  
+  <div class="footer">
+    <p class="footer-content-right">
+      <a href="https://www.twitter.com/anas_cnm"><i class="fab fa-twitter" class="icon-style" alt="twitter icon"></i></a>
+      <a href="https://www.github.com/anascnm"><i class="fab fa-github-square" class="icon-style" alt="github icon"></i></a>
+      <a href="https://www.behance.net/anascnm"><i class="fab fa-behance-square" class="icon-style" alt="behance"></i></a>
+      <a href="https://iq.opengenus.org/author/anastasia/"><i class="fas fa-rss" class="icon-style" alt="blog"></i></a>
+   </p>
+  </div>
+  </body>
+</html>
