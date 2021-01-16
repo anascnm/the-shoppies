@@ -1,6 +1,6 @@
 # UX Developer Intern & Web Developer Intern Challenge - Summer 2021
 
- [Lets go to Live Demo](https://anascnm.github.io/carnival-countdown/)
+ [Lets go to Live Demo](https://anascnm.github.io/the-shoppies/)
 
 ## The Shoppies: Movie awards for entrepreneurs
 
